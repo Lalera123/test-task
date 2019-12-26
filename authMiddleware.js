@@ -17,7 +17,7 @@ const verifyToken = async (req, res, next) => {
 
       req.decoded = decoded;
       req.currentUser = {
-        id: decoded.id,
+        username: decoded.username,
         password: decoded.password,
         accessToken: authToken
       };
