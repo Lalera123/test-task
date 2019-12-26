@@ -102,3 +102,6 @@ $ npm run seed - to create demo user
     updated: string
   }
 ```
+- /v1/payments/:id/approve [PUT] - approve payment
+- /v1/payments/:id/cancel [PUT] - cancel payment
+
