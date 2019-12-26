@@ -1,0 +1,12 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "testDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "authSecret": "secretTokenAuth",
+  "authRefreshSecret": "secretRefreshToken"
+}
