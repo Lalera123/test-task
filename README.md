@@ -10,6 +10,13 @@ $ npm start
 ```
 $ npm run devstart (for development use)
 ```
+```
+$ npm run migrate - to apply migrations
+```
+
+```
+$ npm run seed - to create demo user
+```
 ### Demo user
 
 ```
